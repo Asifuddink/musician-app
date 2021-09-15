@@ -36,8 +36,8 @@ describe('Test suite for Musician model', () => {
 
   test('Vertfy model put success case - NEW', () => {
     const newMusician = {
-      firstName: "Zayed",
-      lastName: "Khamri",
+      firstName: "Nikki",
+      lastName: "F",
       genre: "ROCK"
     };
     musician.putMusician("ash", newMusician, (err, id) => {

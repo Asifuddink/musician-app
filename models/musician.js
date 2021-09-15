@@ -30,7 +30,7 @@ class Musician {
     return callback(null, this.store);
   }
 
-  // get musician from storage
+   // get musician from storage
   getMusician(id, callback) {
     if(this.isMusicianInStore(id)) {
       return callback(null, this.store[id]);
