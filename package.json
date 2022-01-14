@@ -11,12 +11,13 @@
   "author": "Jonathan Spruance",
   "license": "ISC",
   "dependencies": {
+    "applicationinsights": "^2.1.9",
+    "aws-sdk": "latest",
     "body-parser": "^1.18.3",
+    "ejs": "latest",
     "express": "^4.16.4",
     "winston": "^3.2.1",
-    "yup": "^0.26.10",
-    "ejs": "latest",
-    "aws-sdk": "latest"
+    "yup": "^0.26.10"
   },
   "devDependencies": {
     "jest": "^24.7.1",
@@ -26,5 +27,5 @@
   },
   "engines": {
     "node": "14.15.4"
-}
+  }
 }
